@@ -10,24 +10,30 @@ In order for you to make any application that can be sustainable, you need to re
 
 Build another project (the webshop), and note down all relevant versioning, and safe all depencies in composer that the project depends on. victorsframework should not have any dependencies in composer. This means that the vendor folder should be empty.
 
-### 2. When you have succesfully build the webshop project on top of victorswebframework
-When you have succesfully build the webshop project on top of victorswebframework. You should go back to victorswebframework and patch or upgrade if nessesary (comments in the code is important for documentation). After that you should proceed to the next project. Which should be TSPA2. Before you begin coding TSPA2, you should make a usecase & requirement specification. Defining what is the need and usage for this application. This will make it clear what it's purpose is, and what is nessesary in regards to coding the application. Then you should deploy the application in a docker container which image is safed, as well dockerbuild files, is put in a git repository safed in githubb. Once the application is up and running then 
+### 2. After Successful Webshop Project Build
+After successfully building the webshop project on top of victorswebframework, you should:
+1. Go back to victorswebframework and make any necessary patches or upgrades with proper documentation in the code. 
+2. Move on to the next project, TSPA2, and create a use case and requirement specification to clarify its purpose and coding requirements.
+3. Deploy the TSPA2 application in a docker container, and save the docker image and build files in a Git repository hosted on Github.
+4. Obtain the domain name tspa2.sustain.dtu.dk
+5. Create a folder in the TSPA2 Git repository for PowerShell scripts and docs for connecting to Active Directory for user validation and determining the OU location for a computer.
+6. Create a folder for the application that needs to run inside SCCM.
+7. Release and deploy TSPA2.
 
-* domain name tspa2.sustain.dtu.dk
-* make a folder in the TSPA2 git repo that holds powershell scripts and docs for connecting to active directory. This is needed for user validation as well as determing the OU location for a computer.
-* make a folder for the application that needs to run inside the SCCM
-* make a release and deploy it.
 
 ### 3. When you have build and deployed TSPA2, you will proceed to make a usecase & requirement specification for Equip-Online.
 
-* 
+1. Make a use case and requirement specification for Equip-Online, defining its purpose and necessary requirements for coding the application. 
+2. Begin coding Equip-Online using the newly released version of victorswebframework.
+3. Deploy Equip-Online in a Docker container and save the image in a Git repository on GitHub.
+4. Reserve a domain name equip-online.sustain.dtu.dk.
+5. Create a folder in the Equip-Online Git repository for PowerShell scripts and documents related to connecting to the active directory for user validation and determining the OU location for a computer.
+6. Create a folder for the application to run within SCCM.
+7. Create a release and deploy it.
 
-### 4. 
+### 4. Lyngby Frisbee Klub webpage. 
+This page is an information page and a subscription page (where poeple can pay to become a member)
 
 
 
 #### Regarding Artek project. I cannot proceed before Thomas Ingemann has replied my email.
-
-current projects 
-
-Here is a time schedule for how you will proceed finishing your projects. First of all you should determine what projects is most important two you
