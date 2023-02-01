@@ -55,6 +55,7 @@ function g_scandir(string $dir): array
 
 
 
+
 // -------------- g_get_all_namespaces(array $folders) : void -------------- //
 // This function will require all classes in the given folders and subfolders
 // This automates access to namespaces and classes
@@ -86,6 +87,8 @@ function g_get_all_namespaces(array $folders) : void
         }
     }
 }
+
+
 
 
 function g_find_object_by_id($id, $array_of_objects)
