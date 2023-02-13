@@ -39,6 +39,6 @@ require_once 'library.php';
 if (session_status() === PHP_SESSION_NONE) session_start();
 
 
-// Enables all classes to be accessed without the need to require them. As long as they require global-requirements.php
+// Get all namespaces in a 
 g_get_all_namespaces($g_namespaces = ['classes', 'dto', 'entities', 'services', 'repositories', 'models', 'controllers', 'api']);
 // ---------- script end ---------- //
