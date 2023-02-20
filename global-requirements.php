@@ -24,6 +24,10 @@
 // Now $g_postnord_apikey is defined in this class or scope.
 // echo $g_postnord_apikey  >> <API-KEY>;
 
+// A boolean that determines if the website is in sandbox mode or not.
+// Other global variables are set based on this variable.
+$g_sandbox_mode_enabled = (bool)json_decode(file_get_contents(__DIR__ . '/secret/sandbox.json'), false)->sandbox_mode_enabled;
+
 
 // ------- Global variables ------- //
 
