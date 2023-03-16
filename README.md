@@ -77,3 +77,6 @@ Learning web development: The framework's simple and intuitive structure makes i
 Maintaining codebase: With clear separation of abstraction layers and support for unit testing, the Victor's Web Framework helps to maintain a clean and reliable codebase, ensuring that the web application remains functional and up-to-date over time.
 
 Reusing code: The framework's page-based client-side structure allows for the reuse of code, specifically the header and footer, which can be updated in one central location, making it easier to maintain a consistent look and feel across multiple pages.
+
+## Run these commands when you have initiated the project
+`chown -R www-data:www-data /var/www/tspa.sustain.dtu.dk && chmod -R 755 /var/www/tspa.sustain.dtu.dk`
